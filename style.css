@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* FONTS ^^ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #3385ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.omos-parent {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    height: 70vh;
+    width: 100%;
+}
+
+.omos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.omos {
+    background-color: #0a348f;
+    box-shadow: 0 0 15px #0a348f;
+    margin: 20px;
+    padding: 20px;
+    width: calc(25% - 40px);
+    max-height: 50%;
+    color: white;
+    display: flex;
+    display: block;
+}
+
+.omos h1 {
+    font-weight: bolder;
+    font-size: 33px;
+    margin-bottom: 5%;
+}
+
+.omos h3 {
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 5%;
+}
+
+.omos p {
+    font-size: 13px;
+}
+
+.omos:hover {
+    transform: scale(1.1);
+}
